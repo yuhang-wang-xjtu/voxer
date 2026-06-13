@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Data files (large binary)
+*.npy
+*.npz
+*.pt
+*.pth
+
+# Downloaded models
+**/diag_models/
+**/hf_models/
+**/_download_cache/
+**/stream_output/
+
+# Checkpoints
+checkpoints/
+*.ckpt
+
+# Colab outputs
+/content/
+/drive/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Temp
+*.tmp
+*.swp
+inspection/
